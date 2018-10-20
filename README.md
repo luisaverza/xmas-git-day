@@ -1,24 +1,19 @@
-# README
+# Xmas Git Day
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
+This is a very cool project to teach IDA to use GIT :D
 
-Things you may want to cover:
+## Setup
+Ruby v 2.5.1
 
-* Ruby version
+## Setup for Windows
+- https://rubyinstaller.org/downloads/ 
+  Download v 2.5.1 with DevKit
+- gem install rails -v 5.1.6
+- git clone https://github.com/luisaverza/xmas-git-day.git
 
-* System dependencies
+## Install rails dependencies
+`bundle install`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Run Rail Server
+`bundle exec rails s`
