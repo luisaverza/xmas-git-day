@@ -1,0 +1,17 @@
+.container-header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: darkgreen;
+  color: gold;
+  border-bottom: solid 2px gold;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+}
