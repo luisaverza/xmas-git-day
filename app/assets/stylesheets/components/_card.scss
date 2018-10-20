@@ -6,6 +6,30 @@
   margin-top: 40px;
   padding: 20px;
   color: darkgreen;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-self: center;
+  
+  & > * {
+    flex: 1 100%;
+    padding: 0 10px;
+  }
+
+  & figure {
+    flex: 0 0;
+    margin-top: 5px;
+    order: 2;
+  } 
+
+  & figure img {
+    max-width: 150px;
+  }
+
+  & quote {
+    flex: 1 0;
+    order: 3;
+  }
 }
 .container-second-card {
   height: 200px;
@@ -15,4 +39,5 @@
   margin-top: 40px;
   padding: 20px;
   color: rgba(255,255,255, 0.9);
+  align-self: center;
 }
